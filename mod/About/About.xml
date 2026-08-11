@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Settlement Trade Overview</name>
+    <author>Escarval</author>
+    <packageId>escarval.settlementtradeoverview</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>Settlement Trade Overview is a read-only planning and information mod for RimWorld trade. It lets you inspect the current trade stock offered by world settlements before deciding where to send your caravan.
+
+Browse eligible settlements together in one global overview, or inspect a specific settlement directly from the world map. Search, filter and sort trade offers, compare estimated prices, check distance and ground-route availability, review restock information, and inspect relevant pawn trade details.
+
+Choose which settlements are included using configurable rules for communications access, technology level, maximum distance, reachable ground routes, and optional Royalty trade permission. Trade data can be refreshed manually without forcing settlements to restock or changing RimWorld's normal restock schedule.
+
+Purchases are not performed through Settlement Trade Overview and still use the normal RimWorld trading system.
+
+Optional Xenogerm Planner integration can highlight genepacks for sale that contain genes useful for unfinished plans. Xenogerm Planner is not required for the normal trade overview.
+
+No DLC is required.
+Harmony is not required.
+
+Available in English, Russian, and Ukrainian.</description>
+</ModMetaData>

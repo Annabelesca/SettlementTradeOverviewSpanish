@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.Settings.Category>Settlement Trade Overview</STO.Settings.Category>
+
+    <STO.Settings.Section.Interface>Интерфейс</STO.Settings.Section.Interface>
+    <STO.Settings.ShowGlobalOverviewTab.Label>Показывать вкладку общего обзора торговли</STO.Settings.ShowGlobalOverviewTab.Label>
+    <STO.Settings.ShowGlobalOverviewTab.Description>Показывать кнопку Settlement Trade Overview на панели основных вкладок. Настройка не влияет на команды просмотра торгового ассортимента отдельных поселений.</STO.Settings.ShowGlobalOverviewTab.Description>
+
+    <STO.Settings.Section.Eligibility>Отображаемые поселения</STO.Settings.Section.Eligibility>
+    <STO.Settings.RequirePoweredCommsConsole.Label>Требовать работающую консоль связи</STO.Settings.RequirePoweredCommsConsole.Label>
+    <STO.Settings.RequirePoweredCommsConsole.Description>Показывать поселения, только если на текущей или другой домашней карте игрока есть работающая консоль связи.</STO.Settings.RequirePoweredCommsConsole.Description>
+    <STO.Settings.RequireIndustrialTechnology.Label>Требовать индустриальный или более высокий уровень технологий</STO.Settings.RequireIndustrialTechnology.Label>
+    <STO.Settings.RequireIndustrialTechnology.Description>Показывать поселения, только если их фракция имеет индустриальный уровень технологий или выше.</STO.Settings.RequireIndustrialTechnology.Description>
+    <STO.Settings.LimitMaximumDistance.Label>Ограничивать максимальное расстояние</STO.Settings.LimitMaximumDistance.Label>
+    <STO.Settings.LimitMaximumDistance.Description>Показывать только поселения в пределах заданного количества клеток мира от текущего местоположения.</STO.Settings.LimitMaximumDistance.Description>
+    <STO.Settings.MaximumDistanceInTiles.Label>Максимальное расстояние в клетках</STO.Settings.MaximumDistanceInTiles.Label>
+    <STO.Settings.MaximumDistanceInTiles.Description>Максимальное расстояние от текущего местоположения при включённом ограничении.</STO.Settings.MaximumDistanceInTiles.Description>
+    <STO.Settings.RequireReachable.Label>Требовать наличие доступного маршрута</STO.Settings.RequireReachable.Label>
+    <STO.Settings.RequireReachable.Description>Показывать поселения, только если от текущего местоположения существует проходимый наземный маршрут.</STO.Settings.RequireReachable.Description>
+    <STO.Settings.RequireRoyaltyTradePermission.Label>Требовать разрешение Royalty на торговлю</STO.Settings.RequireRoyaltyTradePermission.Label>
+    <STO.Settings.RequireRoyaltyTradePermission.Description>Если дополнение Royalty активно, показывать только поселения, для торговли с которыми доступен колонист с требуемым дворянским титулом. Если Royalty неактивно, настройка ни на что не влияет.</STO.Settings.RequireRoyaltyTradePermission.Description>
+</LanguageData>

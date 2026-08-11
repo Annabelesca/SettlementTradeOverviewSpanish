@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.GlobalOverview.Loading>Загрузка данных о торговле поселений...</STO.GlobalOverview.Loading>
+    <STO.GlobalOverview.AvailableSummary>Загружено поселений: {0}; товаров на продажу: {1}.</STO.GlobalOverview.AvailableSummary>
+    <STO.GlobalOverview.NegotiatorSummary>Расчётные цены указаны с учётом переговорщика {0} (улучшение торговых цен: {1}).</STO.GlobalOverview.NegotiatorSummary>
+    <STO.GlobalOverview.NoNegotiatorSummary>Не удалось найти подходящего переговорщика. Если рассчитать цену с учётом переговорщика невозможно, показана рыночная стоимость.</STO.GlobalOverview.NoNegotiatorSummary>
+    <STO.GlobalOverview.Empty>Подходящие поселения или товары на продажу не найдены.</STO.GlobalOverview.Empty>
+    <STO.GlobalOverview.Unavailable>Данные о торговле недоступны: нет активной карты игрока или исходной точки для расчёта расстояния.</STO.GlobalOverview.Unavailable>
+    <STO.GlobalOverview.Partial>Не удалось загрузить данные некоторых поселений. Товары из остальных поселений по-прежнему показаны.</STO.GlobalOverview.Partial>
+    <STO.GlobalOverview.Error>Не удалось загрузить данные о торговле поселений. Подробности доступны в журнале.</STO.GlobalOverview.Error>
+    <STO.GlobalOverview.Search>Поиск предметов или поселений</STO.GlobalOverview.Search>
+    <STO.GlobalOverview.ClearSearch>Очистить поиск</STO.GlobalOverview.ClearSearch>
+    <STO.GlobalOverview.Refresh>Обновить данные о торговле</STO.GlobalOverview.Refresh>
+    <STO.GlobalOverview.NoMatches>Нет товаров, соответствующих выбранной категории и поисковому запросу.</STO.GlobalOverview.NoMatches>
+
+    <STO.TradeCategory.All>Все</STO.TradeCategory.All>
+    <STO.TradeCategory.Foods>Еда</STO.TradeCategory.Foods>
+    <STO.TradeCategory.ResourcesRaw>Материалы</STO.TradeCategory.ResourcesRaw>
+    <STO.TradeCategory.Manufactured>Изделия</STO.TradeCategory.Manufactured>
+    <STO.TradeCategory.Apparel>Одежда</STO.TradeCategory.Apparel>
+    <STO.TradeCategory.Weapons>Оружие</STO.TradeCategory.Weapons>
+    <STO.TradeCategory.Items>Предметы</STO.TradeCategory.Items>
+    <STO.TradeCategory.Buildings>Конструкции</STO.TradeCategory.Buildings>
+    <STO.TradeCategory.Pawns>Персонажи</STO.TradeCategory.Pawns>
+    <STO.TradeCategory.Other>Прочее</STO.TradeCategory.Other>
+
+    <STO.TradeList.Column.Item>Предмет</STO.TradeList.Column.Item>
+    <STO.TradeList.Column.Details>Сведения</STO.TradeList.Column.Details>
+    <STO.TradeList.Column.DetailsTooltip>Сортировать по отображаемым сведениям, включая подходящие планы Xenogerm Planner и сведения о продаваемых персонажах.</STO.TradeList.Column.DetailsTooltip>
+    <STO.TradeList.Column.Count>Количество</STO.TradeList.Column.Count>
+    <STO.TradeList.Column.Settlement>Поселение</STO.TradeList.Column.Settlement>
+    <STO.TradeList.Column.Price>Цена</STO.TradeList.Column.Price>
+    <STO.TradeList.Column.Distance>Расстояние</STO.TradeList.Column.Distance>
+    <STO.TradeList.Column.Restock>Пополнение</STO.TradeList.Column.Restock>
+
+    <STO.TradeList.Distance.Tiles>{0} клет.</STO.TradeList.Distance.Tiles>
+    <STO.TradeList.Restock.PendingGeneration>Ожидается</STO.TradeList.Restock.PendingGeneration>
+
+    <STO.TradeList.Relevance.Tooltip.Header>Подходит для планов Xenogerm Planner:</STO.TradeList.Relevance.Tooltip.Header>
+    <STO.TradeList.Relevance.Tooltip.More>…ещё совпадений: {0}.</STO.TradeList.Relevance.Tooltip.More>
+
+    <STO.TradeList.Price.NegotiatedTooltip>Расчётная цена покупки с учётом выбранного переговорщика {0}.</STO.TradeList.Price.NegotiatedTooltip>
+    <STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>Расчётная цена покупки. Сведения о переговорщике, использованном для расчёта, недоступны.</STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>
+    <STO.TradeList.Price.MarketValueFallbackTooltip>Приблизительная рыночная стоимость. Рассчитать торговую цену с учётом переговорщика не удалось.</STO.TradeList.Price.MarketValueFallbackTooltip>
+    <STO.TradeList.Price.UnavailableTooltip>Расчётная цена этого товара недоступна.</STO.TradeList.Price.UnavailableTooltip>
+
+    <STO.TradeList.Distance.ReachableTooltip>Расстояние от текущего местоположения на момент последнего обновления списка.</STO.TradeList.Distance.ReachableTooltip>
+    <STO.TradeList.Distance.UnreachableTooltip>На момент последнего обновления списка не удалось найти проходимый наземный маршрут от текущего местоположения. Перелёт или другие способы передвижения всё ещё могут быть доступны.</STO.TradeList.Distance.UnreachableTooltip>
+    <STO.TradeList.Distance.RouteUnavailableTooltip>Расстояние от текущего местоположения на момент последнего обновления списка. Проверить наличие наземного маршрута не удалось.</STO.TradeList.Distance.RouteUnavailableTooltip>
+    <STO.TradeList.Distance.UnavailableTooltip>На момент последнего обновления списка не удалось рассчитать расстояние от текущего местоположения.</STO.TradeList.Distance.UnavailableTooltip>
+
+    <STO.TradeList.Restock.ScheduledTooltip>До пополнения запасов на момент последнего обновления списка оставалось: {0}. Значение не обновляется непрерывно.</STO.TradeList.Restock.ScheduledTooltip>
+    <STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>Ожидаемые дата и время пополнения запасов для текущего местоположения: {0}&#10;На момент последнего обновления списка оставалось: {1}&#10;&#10;Значение не обновляется непрерывно.</STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>
+    <STO.TradeList.Restock.PendingGenerationTooltip>Поселение не указало время следующего пополнения запасов. Его торговый ассортимент может быть ещё недоступен.</STO.TradeList.Restock.PendingGenerationTooltip>
+    <STO.TradeList.Restock.UnavailableTooltip>Сведения о пополнении запасов этого поселения недоступны.</STO.TradeList.Restock.UnavailableTooltip>
+
+    <STO.TradeList.Navigation.JumpToSettlement>Перейти к поселению {0}</STO.TradeList.Navigation.JumpToSettlement>
+    <STO.TradeList.Navigation.SettlementUnavailable>Поселение {0} больше недоступно на карте мира.</STO.TradeList.Navigation.SettlementUnavailable>
+
+    <STO.GlobalOverview.Navigation.JumpToNegotiator>Перейти к переговорщику {0}</STO.GlobalOverview.Navigation.JumpToNegotiator>
+    <STO.GlobalOverview.Navigation.NegotiatorUnavailable>Не удалось найти {0} на карте игрока.</STO.GlobalOverview.Navigation.NegotiatorUnavailable>
+
+    <STO.TradeList.Info.Open>Открыть сведения: {0}</STO.TradeList.Info.Open>
+    <STO.TradeList.Restock.Days>{0} дн.</STO.TradeList.Restock.Days>
+</LanguageData>

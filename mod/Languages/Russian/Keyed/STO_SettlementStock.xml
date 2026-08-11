@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementStock.Loading>Загрузка торгового ассортимента поселения...</STO.SettlementStock.Loading>
+    <STO.SettlementStock.Header>Текущий торговый ассортимент: {0}</STO.SettlementStock.Header>
+    <STO.SettlementStock.UnknownSettlement>Поселение</STO.SettlementStock.UnknownSettlement>
+    <STO.SettlementStock.RestockSummary>Пополнение запасов: {0}</STO.SettlementStock.RestockSummary>
+    <STO.SettlementStock.CurrencyUnavailable>Сведения о торговой валюте недоступны.</STO.SettlementStock.CurrencyUnavailable>
+    <STO.SettlementStock.Empty>Сейчас у этого поселения нет торгового ассортимента, который можно показать.</STO.SettlementStock.Empty>
+    <STO.SettlementStock.NoTradeEntries>Сейчас у этого торговца нет товаров на продажу, которые можно показать.</STO.SettlementStock.NoTradeEntries>
+    <STO.SettlementStock.NoMatches>Нет товаров, соответствующих выбранной категории и поисковому запросу.</STO.SettlementStock.NoMatches>
+    <STO.SettlementStock.Unavailable>Это поселение больше недоступно либо его торговый ассортимент не входит в текущий обзор.</STO.SettlementStock.Unavailable>
+    <STO.SettlementStock.Partial>Не удалось загрузить некоторые товары этого поселения. Остальные товары по-прежнему показаны.</STO.SettlementStock.Partial>
+    <STO.SettlementStock.Error>Не удалось загрузить торговый ассортимент поселения. Подробности доступны в журнале.</STO.SettlementStock.Error>
+</LanguageData>

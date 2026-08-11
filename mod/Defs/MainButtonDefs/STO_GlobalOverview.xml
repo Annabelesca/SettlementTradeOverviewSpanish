@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <MainButtonDef>
+        <defName>STO_GlobalOverview</defName>
+        <tabWindowClass>SettlementTradeOverview.UI.GlobalOverview.MainTabWindow_SettlementTradeOverview</tabWindowClass>
+        <order>74</order>
+        <validWithoutMap>true</validWithoutMap>
+        <minimized>true</minimized>
+        <iconPath>UI/MainButtons/SettlementTradeOverview</iconPath>
+    </MainButtonDef>
+</Defs>

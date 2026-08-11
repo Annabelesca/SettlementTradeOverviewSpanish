@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementStock.Loading>Loading settlement trade stock...</STO.SettlementStock.Loading>
+    <STO.SettlementStock.Header>{0} current trade stock</STO.SettlementStock.Header>
+    <STO.SettlementStock.UnknownSettlement>Settlement</STO.SettlementStock.UnknownSettlement>
+    <STO.SettlementStock.RestockSummary>Restock: {0}</STO.SettlementStock.RestockSummary>
+    <STO.SettlementStock.CurrencyUnavailable>Trade currency information is unavailable.</STO.SettlementStock.CurrencyUnavailable>
+    <STO.SettlementStock.Empty>This settlement currently has no trade stock that can be shown.</STO.SettlementStock.Empty>
+    <STO.SettlementStock.NoTradeEntries>This trader currently has no trade offers that can be shown.</STO.SettlementStock.NoTradeEntries>
+    <STO.SettlementStock.NoMatches>No trade offers match the current category and search.</STO.SettlementStock.NoMatches>
+    <STO.SettlementStock.Unavailable>This settlement is no longer available or its trade stock is not part of the current overview.</STO.SettlementStock.Unavailable>
+    <STO.SettlementStock.Partial>Some trade offers from this settlement could not be loaded. The remaining offers are still shown.</STO.SettlementStock.Partial>
+    <STO.SettlementStock.Error>The settlement trade stock could not be loaded. Check the log for details.</STO.SettlementStock.Error>
+</LanguageData>

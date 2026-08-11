@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementStock.Loading>Завантаження торгового асортименту поселення...</STO.SettlementStock.Loading>
+    <STO.SettlementStock.Header>Поточний торговий асортимент: {0}</STO.SettlementStock.Header>
+    <STO.SettlementStock.UnknownSettlement>Поселення</STO.SettlementStock.UnknownSettlement>
+    <STO.SettlementStock.RestockSummary>Поповнення запасів: {0}</STO.SettlementStock.RestockSummary>
+    <STO.SettlementStock.CurrencyUnavailable>Відомості про торгову валюту недоступні.</STO.SettlementStock.CurrencyUnavailable>
+    <STO.SettlementStock.Empty>Зараз у цього поселення немає торгового асортименту, який можна показати.</STO.SettlementStock.Empty>
+    <STO.SettlementStock.NoTradeEntries>Зараз у цього торговця немає товарів на продаж, які можна показати.</STO.SettlementStock.NoTradeEntries>
+    <STO.SettlementStock.NoMatches>Немає товарів, що відповідають вибраній категорії та пошуковому запиту.</STO.SettlementStock.NoMatches>
+    <STO.SettlementStock.Unavailable>Це поселення більше недоступне або його торговий асортимент не входить до поточного огляду.</STO.SettlementStock.Unavailable>
+    <STO.SettlementStock.Partial>Не вдалося завантажити деякі товари цього поселення. Решту товарів усе ще показано.</STO.SettlementStock.Partial>
+    <STO.SettlementStock.Error>Не вдалося завантажити торговий асортимент поселення. Докладні відомості доступні в журналі.</STO.SettlementStock.Error>
+</LanguageData>

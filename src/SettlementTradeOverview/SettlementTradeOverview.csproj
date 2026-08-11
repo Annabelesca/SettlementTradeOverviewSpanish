@@ -1,0 +1,88 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <RootNamespace>SettlementTradeOverview</RootNamespace>
+        <AssemblyName>SettlementTradeOverview</AssemblyName>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <EscarvalRimWorldUiProjectDir>$(MSBuildThisFileDirectory)..\..\..\Escarval.RimWorld.UI\src\Escarval.RimWorld.UI</EscarvalRimWorldUiProjectDir>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="SettlementTradeOverview.Tests"/>
+    </ItemGroup>
+
+    <Import Project="..\SettlementTradeOverview.Local.props"
+            Condition="Exists('..\SettlementTradeOverview.Local.props')"/>
+
+    <Target Name="ValidateLocalConfiguration"
+            BeforeTargets="ResolveReferences">
+        <Error Condition="'$(RimWorldManagedDir)' == ''"
+               Text="RimWorldManagedDir is not configured. Create src\SettlementTradeOverview.Local.props from docs\SettlementTradeOverview.Local.props.example and set the path to RimWorld's Managed directory."/>
+
+        <Error Condition="'$(RimWorldManagedDir)' != '' and !Exists('$(RimWorldManagedDir)\Assembly-CSharp.dll')"
+               Text="Assembly-CSharp.dll was not found in '$(RimWorldManagedDir)'. Update RimWorldManagedDir in src\SettlementTradeOverview.Local.props."/>
+
+        <Error Condition="'$(RimWorldModAssembliesDir)' == ''"
+               Text="RimWorldModAssembliesDir is not configured. Update src\SettlementTradeOverview.Local.props."/>
+    </Target>
+
+    <Target Name="ValidateSharedUiProject"
+            BeforeTargets="PrepareForBuild">
+        <Error Condition="!Exists('$(EscarvalRimWorldUiProjectDir)\Escarval.RimWorld.UI.csproj')"
+               Text="Escarval.RimWorld.UI was not found at '$(EscarvalRimWorldUiProjectDir)'. Keep Escarval.RimWorld.UI and SettlementTradeOverview as sibling directories under the same RimWorldMods directory."/>
+
+        <Error Condition="Exists('$(EscarvalRimWorldUiProjectDir)\Escarval.RimWorld.UI.csproj') and !Exists('$(EscarvalRimWorldUiProjectDir)\Source')"
+               Text="The Escarval.RimWorld.UI source directory was not found at '$(EscarvalRimWorldUiProjectDir)\Source'. Restore the complete sibling shared UI project."/>
+    </Target>
+
+    <ItemGroup Condition="'$(RimWorldManagedDir)' != ''">
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(RimWorldManagedDir)\Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine"
+                   Condition="Exists('$(RimWorldManagedDir)\UnityEngine.dll')">
+            <HintPath>$(RimWorldManagedDir)\UnityEngine.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine.CoreModule"
+                   Condition="Exists('$(RimWorldManagedDir)\UnityEngine.CoreModule.dll')">
+            <HintPath>$(RimWorldManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine.TextRenderingModule"
+                   Condition="Exists('$(RimWorldManagedDir)\UnityEngine.TextRenderingModule.dll')">
+            <HintPath>$(RimWorldManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="UnityEngine.IMGUIModule"
+                   Condition="Exists('$(RimWorldManagedDir)\UnityEngine.IMGUIModule.dll')">
+            <HintPath>$(RimWorldManagedDir)\UnityEngine.IMGUIModule.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="$(EscarvalRimWorldUiProjectDir)\Escarval.RimWorld.UI.csproj"
+                          ReferenceOutputAssembly="false"/>
+
+        <Compile Include="$(EscarvalRimWorldUiProjectDir)\Source\**\*.cs"
+                 Link="SharedUI\%(RecursiveDir)%(Filename)%(Extension)"/>
+    </ItemGroup>
+
+    <Target Name="CopyAssemblyToMod"
+            AfterTargets="Build"
+            Condition="'$(RimWorldModAssembliesDir)' != ''">
+        <MakeDir Directories="$(RimWorldModAssembliesDir)"/>
+
+        <Copy SourceFiles="$(TargetPath)"
+              DestinationFolder="$(RimWorldModAssembliesDir)"
+              SkipUnchangedFiles="true"/>
+    </Target>
+</Project>

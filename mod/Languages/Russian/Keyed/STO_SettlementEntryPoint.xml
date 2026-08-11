@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementEntryPoint.Label>Просмотреть торговый ассортимент</STO.SettlementEntryPoint.Label>
+    <STO.SettlementEntryPoint.Description>Просмотреть текущий торговый ассортимент поселения {0}.</STO.SettlementEntryPoint.Description>
+
+    <STO.SettlementEntryPoint.Disabled.ContextUnavailable>Откройте карту игрока, прежде чем просматривать торговый ассортимент поселений.</STO.SettlementEntryPoint.Disabled.ContextUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TradeUnavailable>Поселение {0} сейчас не может торговать.</STO.SettlementEntryPoint.Disabled.TradeUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Hostile>Нельзя просматривать торговый ассортимент враждебного поселения {0}.</STO.SettlementEntryPoint.Disabled.Hostile>
+    <STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>Уровень технологий этого поселения неизвестен.</STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>Уровень технологий поселения должен быть индустриальным или выше.</STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>
+    <STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>На этой или другой домашней карте требуется работающая консоль связи.</STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>
+    <STO.SettlementEntryPoint.Disabled.DistanceUnavailable>Не удалось рассчитать расстояние от текущего местоположения.</STO.SettlementEntryPoint.Disabled.DistanceUnavailable>
+    <STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>Поселение находится дальше заданного максимального расстояния.</STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>
+    <STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>Не удалось проверить наличие наземного маршрута от текущего местоположения.</STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Unreachable>От текущего местоположения нет проходимого наземного маршрута.</STO.SettlementEntryPoint.Disabled.Unreachable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>Не удалось проверить требуемый дворянский титул для торговли с этим поселением.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>Нет доступного колониста с дворянским титулом, необходимым для торговли с этим поселением.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>
+    <STO.SettlementEntryPoint.Disabled.Fallback>Торговый ассортимент этого поселения сейчас недоступен.</STO.SettlementEntryPoint.Disabled.Fallback>
+</LanguageData>

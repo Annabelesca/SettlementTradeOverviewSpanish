@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.Settings.Category>Settlement Trade Overview</STO.Settings.Category>
+
+    <STO.Settings.Section.Interface>Interface</STO.Settings.Section.Interface>
+    <STO.Settings.ShowGlobalOverviewTab.Label>Show global trade overview tab</STO.Settings.ShowGlobalOverviewTab.Label>
+    <STO.Settings.ShowGlobalOverviewTab.Description>Show the Settlement Trade Overview button in the main tab bar. This does not affect settlement-specific trade stock commands.</STO.Settings.ShowGlobalOverviewTab.Description>
+
+    <STO.Settings.Section.Eligibility>Displayed settlements</STO.Settings.Section.Eligibility>
+    <STO.Settings.RequirePoweredCommsConsole.Label>Require a powered communications console</STO.Settings.RequirePoweredCommsConsole.Label>
+    <STO.Settings.RequirePoweredCommsConsole.Description>Show settlements only when the current map or another player home map has a powered communications console.</STO.Settings.RequirePoweredCommsConsole.Description>
+    <STO.Settings.RequireIndustrialTechnology.Label>Require Industrial technology or higher</STO.Settings.RequireIndustrialTechnology.Label>
+    <STO.Settings.RequireIndustrialTechnology.Description>Show settlements only when their faction has Industrial technology or higher.</STO.Settings.RequireIndustrialTechnology.Description>
+    <STO.Settings.LimitMaximumDistance.Label>Limit maximum distance</STO.Settings.LimitMaximumDistance.Label>
+    <STO.Settings.LimitMaximumDistance.Description>Show settlements only when they are within the configured number of world tiles from the current location.</STO.Settings.LimitMaximumDistance.Description>
+    <STO.Settings.MaximumDistanceInTiles.Label>Maximum distance in tiles</STO.Settings.MaximumDistanceInTiles.Label>
+    <STO.Settings.MaximumDistanceInTiles.Description>The maximum distance from the current location when the distance limit is enabled.</STO.Settings.MaximumDistanceInTiles.Description>
+    <STO.Settings.RequireReachable.Label>Require a reachable route</STO.Settings.RequireReachable.Label>
+    <STO.Settings.RequireReachable.Description>Show settlements only when a traversable ground route exists from the current location.</STO.Settings.RequireReachable.Description>
+    <STO.Settings.RequireRoyaltyTradePermission.Label>Require Royalty trade permission</STO.Settings.RequireRoyaltyTradePermission.Label>
+    <STO.Settings.RequireRoyaltyTradePermission.Description>When Royalty is active, show settlements only when an available colonist meets their royal title requirement. This setting has no effect when Royalty is inactive.</STO.Settings.RequireRoyaltyTradePermission.Description>
+</LanguageData>

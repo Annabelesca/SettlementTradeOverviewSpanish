@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementEntryPoint.Label>View trade stock</STO.SettlementEntryPoint.Label>
+    <STO.SettlementEntryPoint.Description>Inspect the current trade stock offered by {0}.</STO.SettlementEntryPoint.Description>
+
+    <STO.SettlementEntryPoint.Disabled.ContextUnavailable>Open a player map before viewing settlement trade stock.</STO.SettlementEntryPoint.Disabled.ContextUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TradeUnavailable>{0} cannot trade right now.</STO.SettlementEntryPoint.Disabled.TradeUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Hostile>Trade stock cannot be inspected while {0} is hostile.</STO.SettlementEntryPoint.Disabled.Hostile>
+    <STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>The settlement's technology level is unknown.</STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>This settlement must have Industrial technology or higher.</STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>
+    <STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>A powered communications console is required on this or another home map.</STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>
+    <STO.SettlementEntryPoint.Disabled.DistanceUnavailable>Distance from your current location could not be calculated.</STO.SettlementEntryPoint.Disabled.DistanceUnavailable>
+    <STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>The settlement is farther away than the configured maximum distance.</STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>
+    <STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>Ground-route availability from your current location could not be checked.</STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Unreachable>No traversable ground route exists from your current location.</STO.SettlementEntryPoint.Disabled.Unreachable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>This settlement's royal title requirement could not be checked.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>No available colonist has the royal title required to trade with this settlement.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>
+    <STO.SettlementEntryPoint.Disabled.Fallback>The settlement trade stock is currently unavailable.</STO.SettlementEntryPoint.Disabled.Fallback>
+</LanguageData>

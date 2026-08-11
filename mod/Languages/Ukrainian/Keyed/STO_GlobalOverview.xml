@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.GlobalOverview.Loading>Завантаження даних про торгівлю поселень...</STO.GlobalOverview.Loading>
+    <STO.GlobalOverview.AvailableSummary>Завантажено поселень: {0}; товарів на продаж: {1}.</STO.GlobalOverview.AvailableSummary>
+    <STO.GlobalOverview.NegotiatorSummary>Розрахункові ціни вказано з урахуванням перемовника {0} (поліпшення торгової ціни: {1}).</STO.GlobalOverview.NegotiatorSummary>
+    <STO.GlobalOverview.NoNegotiatorSummary>Не вдалося знайти відповідного перемовника. Якщо розрахувати ціну з урахуванням перемовника неможливо, показано ринкову вартість.</STO.GlobalOverview.NoNegotiatorSummary>
+    <STO.GlobalOverview.Empty>Відповідних поселень або товарів на продаж не знайдено.</STO.GlobalOverview.Empty>
+    <STO.GlobalOverview.Unavailable>Дані про торгівлю недоступні: немає активної мапи гравця або вихідної точки для розрахунку відстані.</STO.GlobalOverview.Unavailable>
+    <STO.GlobalOverview.Partial>Не вдалося завантажити дані деяких поселень. Товари з решти поселень усе ще показано.</STO.GlobalOverview.Partial>
+    <STO.GlobalOverview.Error>Не вдалося завантажити дані про торгівлю поселень. Докладні відомості доступні в журналі.</STO.GlobalOverview.Error>
+    <STO.GlobalOverview.Search>Пошук предметів або поселень</STO.GlobalOverview.Search>
+    <STO.GlobalOverview.ClearSearch>Очистити пошук</STO.GlobalOverview.ClearSearch>
+    <STO.GlobalOverview.Refresh>Оновити дані про торгівлю</STO.GlobalOverview.Refresh>
+    <STO.GlobalOverview.NoMatches>Немає товарів, що відповідають вибраній категорії та пошуковому запиту.</STO.GlobalOverview.NoMatches>
+
+    <STO.TradeCategory.All>Усі</STO.TradeCategory.All>
+    <STO.TradeCategory.Foods>Їжа</STO.TradeCategory.Foods>
+    <STO.TradeCategory.ResourcesRaw>Матеріали</STO.TradeCategory.ResourcesRaw>
+    <STO.TradeCategory.Manufactured>Виробництво</STO.TradeCategory.Manufactured>
+    <STO.TradeCategory.Apparel>Одяг</STO.TradeCategory.Apparel>
+    <STO.TradeCategory.Weapons>Зброя</STO.TradeCategory.Weapons>
+    <STO.TradeCategory.Items>Предмети</STO.TradeCategory.Items>
+    <STO.TradeCategory.Buildings>Споруди</STO.TradeCategory.Buildings>
+    <STO.TradeCategory.Pawns>Персонажі</STO.TradeCategory.Pawns>
+    <STO.TradeCategory.Other>Інше</STO.TradeCategory.Other>
+
+    <STO.TradeList.Column.Item>Предмет</STO.TradeList.Column.Item>
+    <STO.TradeList.Column.Details>Відомості</STO.TradeList.Column.Details>
+    <STO.TradeList.Column.DetailsTooltip>Сортувати за показаними відомостями, зокрема за відповідними планами Xenogerm Planner і відомостями про персонажів на продаж.</STO.TradeList.Column.DetailsTooltip>
+    <STO.TradeList.Column.Count>Кількість</STO.TradeList.Column.Count>
+    <STO.TradeList.Column.Settlement>Поселення</STO.TradeList.Column.Settlement>
+    <STO.TradeList.Column.Price>Ціна</STO.TradeList.Column.Price>
+    <STO.TradeList.Column.Distance>Відстань</STO.TradeList.Column.Distance>
+    <STO.TradeList.Column.Restock>Поповнення</STO.TradeList.Column.Restock>
+
+    <STO.TradeList.Distance.Tiles>{0} кліт.</STO.TradeList.Distance.Tiles>
+    <STO.TradeList.Restock.PendingGeneration>Очікується</STO.TradeList.Restock.PendingGeneration>
+
+    <STO.TradeList.Relevance.Tooltip.Header>Підходить для планів Xenogerm Planner:</STO.TradeList.Relevance.Tooltip.Header>
+    <STO.TradeList.Relevance.Tooltip.More>…ще збігів: {0}.</STO.TradeList.Relevance.Tooltip.More>
+
+    <STO.TradeList.Price.NegotiatedTooltip>Розрахункова ціна купівлі з урахуванням вибраного перемовника {0}.</STO.TradeList.Price.NegotiatedTooltip>
+    <STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>Розрахункова ціна купівлі. Відомості про перемовника, використаного для розрахунку, недоступні.</STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>
+    <STO.TradeList.Price.MarketValueFallbackTooltip>Приблизна ринкова вартість. Розрахувати торгову ціну з урахуванням перемовника не вдалося.</STO.TradeList.Price.MarketValueFallbackTooltip>
+    <STO.TradeList.Price.UnavailableTooltip>Розрахункова ціна цього товару недоступна.</STO.TradeList.Price.UnavailableTooltip>
+
+    <STO.TradeList.Distance.ReachableTooltip>Відстань від поточного розташування на момент останнього оновлення списку.</STO.TradeList.Distance.ReachableTooltip>
+    <STO.TradeList.Distance.UnreachableTooltip>На момент останнього оновлення списку не вдалося знайти прохідний наземний маршрут від поточного розташування. Переліт або інші способи пересування все ще можуть бути доступні.</STO.TradeList.Distance.UnreachableTooltip>
+    <STO.TradeList.Distance.RouteUnavailableTooltip>Відстань від поточного розташування на момент останнього оновлення списку. Перевірити наявність наземного маршруту не вдалося.</STO.TradeList.Distance.RouteUnavailableTooltip>
+    <STO.TradeList.Distance.UnavailableTooltip>На момент останнього оновлення списку не вдалося розрахувати відстань від поточного розташування.</STO.TradeList.Distance.UnavailableTooltip>
+
+    <STO.TradeList.Restock.ScheduledTooltip>До поповнення запасів на момент останнього оновлення списку залишалося: {0}. Значення не оновлюється безперервно.</STO.TradeList.Restock.ScheduledTooltip>
+    <STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>Очікувані дата й час поповнення запасів для поточного розташування: {0}&#10;На момент останнього оновлення списку залишалося: {1}&#10;&#10;Значення не оновлюється безперервно.</STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>
+    <STO.TradeList.Restock.PendingGenerationTooltip>Поселення не вказало час наступного поповнення запасів. Його торговий асортимент може бути ще недоступний.</STO.TradeList.Restock.PendingGenerationTooltip>
+    <STO.TradeList.Restock.UnavailableTooltip>Відомості про поповнення запасів цього поселення недоступні.</STO.TradeList.Restock.UnavailableTooltip>
+
+    <STO.TradeList.Navigation.JumpToSettlement>Перейти до поселення {0}</STO.TradeList.Navigation.JumpToSettlement>
+    <STO.TradeList.Navigation.SettlementUnavailable>Поселення {0} більше недоступне на мапі світу.</STO.TradeList.Navigation.SettlementUnavailable>
+
+    <STO.GlobalOverview.Navigation.JumpToNegotiator>Перейти до перемовника {0}</STO.GlobalOverview.Navigation.JumpToNegotiator>
+    <STO.GlobalOverview.Navigation.NegotiatorUnavailable>Не вдалося знайти {0} на мапі гравця.</STO.GlobalOverview.Navigation.NegotiatorUnavailable>
+
+    <STO.TradeList.Info.Open>Відкрити відомості: {0}</STO.TradeList.Info.Open>
+    <STO.TradeList.Restock.Days>{0} дн.</STO.TradeList.Restock.Days>
+</LanguageData>

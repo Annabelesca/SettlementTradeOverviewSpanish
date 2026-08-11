@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.GlobalOverview.Loading>Loading settlement trade data...</STO.GlobalOverview.Loading>
+    <STO.GlobalOverview.AvailableSummary>Loaded {0} settlements with {1} trade offers.</STO.GlobalOverview.AvailableSummary>
+    <STO.GlobalOverview.NegotiatorSummary>Prices are estimated using {0} as negotiator ({1} trade price improvement).</STO.GlobalOverview.NegotiatorSummary>
+    <STO.GlobalOverview.NoNegotiatorSummary>No valid negotiator was available. Market value is shown where a negotiated price could not be calculated.</STO.GlobalOverview.NoNegotiatorSummary>
+    <STO.GlobalOverview.Empty>No eligible settlements or trade offers were found.</STO.GlobalOverview.Empty>
+    <STO.GlobalOverview.Unavailable>Trade data is unavailable because no active player map or starting point for distance calculations is available.</STO.GlobalOverview.Unavailable>
+    <STO.GlobalOverview.Partial>Some settlements could not be loaded. Trade offers from the remaining settlements are still shown.</STO.GlobalOverview.Partial>
+    <STO.GlobalOverview.Error>Settlement trade data could not be loaded. Check the log for details.</STO.GlobalOverview.Error>
+    <STO.GlobalOverview.Search>Search items or settlements</STO.GlobalOverview.Search>
+    <STO.GlobalOverview.ClearSearch>Clear search</STO.GlobalOverview.ClearSearch>
+    <STO.GlobalOverview.Refresh>Refresh trade data</STO.GlobalOverview.Refresh>
+    <STO.GlobalOverview.NoMatches>No trade offers match the current category and search.</STO.GlobalOverview.NoMatches>
+
+    <STO.TradeCategory.All>All</STO.TradeCategory.All>
+    <STO.TradeCategory.Foods>Food</STO.TradeCategory.Foods>
+    <STO.TradeCategory.ResourcesRaw>Raw resources</STO.TradeCategory.ResourcesRaw>
+    <STO.TradeCategory.Manufactured>Manufactured</STO.TradeCategory.Manufactured>
+    <STO.TradeCategory.Apparel>Apparel</STO.TradeCategory.Apparel>
+    <STO.TradeCategory.Weapons>Weapons</STO.TradeCategory.Weapons>
+    <STO.TradeCategory.Items>Items</STO.TradeCategory.Items>
+    <STO.TradeCategory.Buildings>Buildings</STO.TradeCategory.Buildings>
+    <STO.TradeCategory.Pawns>Pawns</STO.TradeCategory.Pawns>
+    <STO.TradeCategory.Other>Other</STO.TradeCategory.Other>
+
+    <STO.TradeList.Column.Item>Item</STO.TradeList.Column.Item>
+    <STO.TradeList.Column.Details>Details</STO.TradeList.Column.Details>
+    <STO.TradeList.Column.DetailsTooltip>Sort by the details shown here, including matching Xenogerm Planner plans and pawn trade information.</STO.TradeList.Column.DetailsTooltip>
+    <STO.TradeList.Column.Count>Count</STO.TradeList.Column.Count>
+    <STO.TradeList.Column.Settlement>Settlement</STO.TradeList.Column.Settlement>
+    <STO.TradeList.Column.Price>Price</STO.TradeList.Column.Price>
+    <STO.TradeList.Column.Distance>Distance</STO.TradeList.Column.Distance>
+    <STO.TradeList.Column.Restock>Restock</STO.TradeList.Column.Restock>
+
+    <STO.TradeList.Distance.Tiles>{0} tiles</STO.TradeList.Distance.Tiles>
+    <STO.TradeList.Restock.PendingGeneration>Pending</STO.TradeList.Restock.PendingGeneration>
+
+    <STO.TradeList.Relevance.Tooltip.Header>Matches Xenogerm Planner plans:</STO.TradeList.Relevance.Tooltip.Header>
+    <STO.TradeList.Relevance.Tooltip.More>…and {0} more.</STO.TradeList.Relevance.Tooltip.More>
+
+    <STO.TradeList.Price.NegotiatedTooltip>Estimated purchase price using {0} as the selected negotiator.</STO.TradeList.Price.NegotiatedTooltip>
+    <STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>Estimated purchase price. Details about the negotiator used for this estimate are unavailable.</STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>
+    <STO.TradeList.Price.MarketValueFallbackTooltip>Approximate market value. A negotiator-specific trade price was unavailable.</STO.TradeList.Price.MarketValueFallbackTooltip>
+    <STO.TradeList.Price.UnavailableTooltip>A price estimate is unavailable for this offer.</STO.TradeList.Price.UnavailableTooltip>
+
+    <STO.TradeList.Distance.ReachableTooltip>Distance from the current location when the list was last refreshed.</STO.TradeList.Distance.ReachableTooltip>
+    <STO.TradeList.Distance.UnreachableTooltip>No traversable ground route was found from the current location when the list was last refreshed. Air transport or other travel methods may still be available.</STO.TradeList.Distance.UnreachableTooltip>
+    <STO.TradeList.Distance.RouteUnavailableTooltip>Distance from the current location when the list was last refreshed. Ground-route availability could not be checked.</STO.TradeList.Distance.RouteUnavailableTooltip>
+    <STO.TradeList.Distance.UnavailableTooltip>Distance from the current location could not be calculated when the list was last refreshed.</STO.TradeList.Distance.UnavailableTooltip>
+
+    <STO.TradeList.Restock.ScheduledTooltip>Time remaining until restock when the list was last refreshed: {0}. This value does not update continuously.</STO.TradeList.Restock.ScheduledTooltip>
+    <STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>Expected restock date and time for the current location: {0}&#10;Remaining when the list was last refreshed: {1}&#10;&#10;This value does not update continuously.</STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>
+    <STO.TradeList.Restock.PendingGenerationTooltip>The settlement did not provide a scheduled restock time. Its trade stock may not be available yet.</STO.TradeList.Restock.PendingGenerationTooltip>
+    <STO.TradeList.Restock.UnavailableTooltip>Restock information is unavailable for this settlement.</STO.TradeList.Restock.UnavailableTooltip>
+
+    <STO.TradeList.Navigation.JumpToSettlement>Jump to {0}</STO.TradeList.Navigation.JumpToSettlement>
+    <STO.TradeList.Navigation.SettlementUnavailable>{0} is no longer available on the world map.</STO.TradeList.Navigation.SettlementUnavailable>
+
+    <STO.GlobalOverview.Navigation.JumpToNegotiator>Jump to {0}</STO.GlobalOverview.Navigation.JumpToNegotiator>
+    <STO.GlobalOverview.Navigation.NegotiatorUnavailable>{0} is no longer available on a player map.</STO.GlobalOverview.Navigation.NegotiatorUnavailable>
+
+    <STO.TradeList.Info.Open>Open information for {0}</STO.TradeList.Info.Open>
+    <STO.TradeList.Restock.Days>{0} days</STO.TradeList.Restock.Days>
+</LanguageData>

@@ -1,0 +1,52 @@
+# IDEs and editor state
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.DotSettings.user
+
+# Build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+*.binlog
+*.trx
+
+# Test and coverage output
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# NuGet local/package output
+packages/
+*.nupkg
+*.snupkg
+
+# Local project and release documentation
+docs/local/
+
+# Local machine configuration
+src/SettlementTradeOverview.Local.props
+
+# Generated/deployed mod assemblies
+mod/Assemblies/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary, backup and patch files
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+*.rej
+*~

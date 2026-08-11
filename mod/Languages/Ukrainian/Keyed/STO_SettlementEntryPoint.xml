@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementEntryPoint.Label>Переглянути торговий асортимент</STO.SettlementEntryPoint.Label>
+    <STO.SettlementEntryPoint.Description>Переглянути поточний торговий асортимент поселення {0}.</STO.SettlementEntryPoint.Description>
+
+    <STO.SettlementEntryPoint.Disabled.ContextUnavailable>Відкрийте мапу гравця, перш ніж переглядати торговий асортимент поселень.</STO.SettlementEntryPoint.Disabled.ContextUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TradeUnavailable>Поселення {0} зараз не може торгувати.</STO.SettlementEntryPoint.Disabled.TradeUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Hostile>Не можна переглядати торговий асортимент ворожого поселення {0}.</STO.SettlementEntryPoint.Disabled.Hostile>
+    <STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>Рівень технологій цього поселення невідомий.</STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>Рівень технологій поселення має бути промисловим або вищим.</STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>
+    <STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>На цій або іншій домашній мапі потрібна консоль зв’язку з живленням.</STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>
+    <STO.SettlementEntryPoint.Disabled.DistanceUnavailable>Не вдалося розрахувати відстань від поточного розташування.</STO.SettlementEntryPoint.Disabled.DistanceUnavailable>
+    <STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>Поселення розташоване далі за задану максимальну відстань.</STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>
+    <STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>Не вдалося перевірити наявність наземного маршруту від поточного розташування.</STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Unreachable>Від поточного розташування немає прохідного наземного маршруту.</STO.SettlementEntryPoint.Disabled.Unreachable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>Не вдалося перевірити потрібний дворянський титул для торгівлі з цим поселенням.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>Немає доступного колоніста з дворянським титулом, потрібним для торгівлі з цим поселенням.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>
+    <STO.SettlementEntryPoint.Disabled.Fallback>Торговий асортимент цього поселення зараз недоступний.</STO.SettlementEntryPoint.Disabled.Fallback>
+</LanguageData>
