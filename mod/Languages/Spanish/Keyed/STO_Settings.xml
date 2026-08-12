@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.Settings.Category>Resumen comercial de asentamientos</STO.Settings.Category>
+
+    <STO.Settings.Section.Interface>Interfaz</STO.Settings.Section.Interface>
+    <STO.Settings.ShowGlobalOverviewTab.Label>Mostrar pestaña de resumen comercial global</STO.Settings.ShowGlobalOverviewTab.Label>
+    <STO.Settings.ShowGlobalOverviewTab.Description>Muestra el botón de resumen comercial de asentamientos en la barra de pestañas principal. No afecta a los comandos de inventario comercial específicos de cada asentamiento.</STO.Settings.ShowGlobalOverviewTab.Description>
+
+    <STO.Settings.Section.Eligibility>Asentamientos mostrados</STO.Settings.Section.Eligibility>
+    <STO.Settings.RequirePoweredCommsConsole.Label>Requerir una consola de comunicaciones con energía</STO.Settings.RequirePoweredCommsConsole.Label>
+    <STO.Settings.RequirePoweredCommsConsole.Description>Muestra los asentamientos solo cuando el mapa actual u otro mapa base del jugador tenga una consola de comunicaciones con energía.</STO.Settings.RequirePoweredCommsConsole.Description>
+    <STO.Settings.RequireIndustrialTechnology.Label>Requerir tecnología industrial o superior</STO.Settings.RequireIndustrialTechnology.Label>
+    <STO.Settings.RequireIndustrialTechnology.Description>Muestra los asentamientos solo cuando su facción tenga tecnología industrial o superior.</STO.Settings.RequireIndustrialTechnology.Description>
+    <STO.Settings.LimitMaximumDistance.Label>Limitar distancia máxima</STO.Settings.LimitMaximumDistance.Label>
+    <STO.Settings.LimitMaximumDistance.Description>Muestra los asentamientos solo cuando estén dentro del número de casillas del mundo configurado desde la ubicación actual.</STO.Settings.LimitMaximumDistance.Description>
+    <STO.Settings.MaximumDistanceInTiles.Label>Distancia máxima en casillas</STO.Settings.MaximumDistanceInTiles.Label>
+    <STO.Settings.MaximumDistanceInTiles.Description>La distancia máxima desde la ubicación actual cuando el límite de distancia está activado.</STO.Settings.MaximumDistanceInTiles.Description>
+    <STO.Settings.RequireReachable.Label>Requerir una ruta accesible</STO.Settings.RequireReachable.Label>
+    <STO.Settings.RequireReachable.Description>Muestra los asentamientos solo cuando exista una ruta terrestre transitable desde la ubicación actual.</STO.Settings.RequireReachable.Description>
+    <STO.Settings.RequireRoyaltyTradePermission.Label>Requerir permiso comercial de Royalty</STO.Settings.RequireRoyaltyTradePermission.Label>
+    <STO.Settings.RequireRoyaltyTradePermission.Description>Cuando Royalty está activo, muestra los asentamientos solo cuando algún colono disponible cumpla el requisito de título nobiliario. Este ajuste no tiene efecto si Royalty está inactivo.</STO.Settings.RequireRoyaltyTradePermission.Description>
+</LanguageData>

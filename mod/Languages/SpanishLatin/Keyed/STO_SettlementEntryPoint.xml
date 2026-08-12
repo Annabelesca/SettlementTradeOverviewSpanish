@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementEntryPoint.Label>Ver inventario comercial</STO.SettlementEntryPoint.Label>
+    <STO.SettlementEntryPoint.Description>Inspecciona el inventario comercial actual que ofrece {0}.</STO.SettlementEntryPoint.Description>
+
+    <STO.SettlementEntryPoint.Disabled.ContextUnavailable>Abre un mapa de jugador antes de ver el inventario comercial del asentamiento.</STO.SettlementEntryPoint.Disabled.ContextUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TradeUnavailable>{0} no puede comerciar en este momento.</STO.SettlementEntryPoint.Disabled.TradeUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Hostile>No se puede inspeccionar el inventario comercial mientras {0} sea hostil.</STO.SettlementEntryPoint.Disabled.Hostile>
+    <STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>Se desconoce el nivel tecnológico del asentamiento.</STO.SettlementEntryPoint.Disabled.TechnologyUnavailable>
+    <STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>Este asentamiento debe tener tecnología industrial o superior.</STO.SettlementEntryPoint.Disabled.TechnologyBelowMinimum>
+    <STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>Se necesita una consola de comunicaciones con energía en este mapa o en otro mapa base.</STO.SettlementEntryPoint.Disabled.PoweredCommsConsoleRequired>
+    <STO.SettlementEntryPoint.Disabled.DistanceUnavailable>No se pudo calcular la distancia desde tu ubicación actual.</STO.SettlementEntryPoint.Disabled.DistanceUnavailable>
+    <STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>El asentamiento está más lejos que la distancia máxima configurada.</STO.SettlementEntryPoint.Disabled.BeyondMaximumDistance>
+    <STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>No se pudo comprobar la disponibilidad de una ruta terrestre desde tu ubicación actual.</STO.SettlementEntryPoint.Disabled.ReachabilityUnavailable>
+    <STO.SettlementEntryPoint.Disabled.Unreachable>No existe ninguna ruta terrestre transitable desde tu ubicación actual.</STO.SettlementEntryPoint.Disabled.Unreachable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>No se pudo comprobar el requisito de título nobiliario de este asentamiento.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionUnavailable>
+    <STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>Ningún colono disponible tiene el título nobiliario necesario para comerciar con este asentamiento.</STO.SettlementEntryPoint.Disabled.RoyaltyTradePermissionDenied>
+    <STO.SettlementEntryPoint.Disabled.Fallback>El inventario comercial del asentamiento no está disponible en este momento.</STO.SettlementEntryPoint.Disabled.Fallback>
+</LanguageData>

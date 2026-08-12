@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.GlobalOverview.Loading>Cargando datos comerciales de los asentamientos...</STO.GlobalOverview.Loading>
+    <STO.GlobalOverview.AvailableSummary>Se han cargado {0} asentamientos con {1} ofertas comerciales.</STO.GlobalOverview.AvailableSummary>
+    <STO.GlobalOverview.NegotiatorSummary>Los precios se estiman usando a {0} como negociador (mejora de precio comercial del {1}).</STO.GlobalOverview.NegotiatorSummary>
+    <STO.GlobalOverview.NoNegotiatorSummary>No había ningún negociador válido disponible. Se muestra el valor de mercado cuando no se ha podido calcular un precio negociado.</STO.GlobalOverview.NoNegotiatorSummary>
+    <STO.GlobalOverview.Empty>No se han encontrado asentamientos ni ofertas comerciales elegibles.</STO.GlobalOverview.Empty>
+    <STO.GlobalOverview.Unavailable>Los datos comerciales no están disponibles porque no hay ningún mapa de jugador activo ni un punto de partida para calcular las distancias.</STO.GlobalOverview.Unavailable>
+    <STO.GlobalOverview.Partial>Algunos asentamientos no se han podido cargar. Se siguen mostrando las ofertas comerciales del resto de asentamientos.</STO.GlobalOverview.Partial>
+    <STO.GlobalOverview.Error>No se han podido cargar los datos comerciales de los asentamientos. Consulta el registro para más información.</STO.GlobalOverview.Error>
+    <STO.GlobalOverview.Search>Buscar objetos o asentamientos</STO.GlobalOverview.Search>
+    <STO.GlobalOverview.ClearSearch>Borrar búsqueda</STO.GlobalOverview.ClearSearch>
+    <STO.GlobalOverview.Refresh>Actualizar datos comerciales</STO.GlobalOverview.Refresh>
+    <STO.GlobalOverview.NoMatches>Ninguna oferta comercial coincide con la categoría y la búsqueda actuales.</STO.GlobalOverview.NoMatches>
+
+    <STO.TradeCategory.All>Todo</STO.TradeCategory.All>
+    <STO.TradeCategory.Foods>Comida</STO.TradeCategory.Foods>
+    <STO.TradeCategory.ResourcesRaw>Recursos en bruto</STO.TradeCategory.ResourcesRaw>
+    <STO.TradeCategory.Manufactured>Manufacturados</STO.TradeCategory.Manufactured>
+    <STO.TradeCategory.Apparel>Ropa</STO.TradeCategory.Apparel>
+    <STO.TradeCategory.Weapons>Armas</STO.TradeCategory.Weapons>
+    <STO.TradeCategory.Items>Objetos</STO.TradeCategory.Items>
+    <STO.TradeCategory.Buildings>Edificios</STO.TradeCategory.Buildings>
+    <STO.TradeCategory.Pawns>Personajes</STO.TradeCategory.Pawns>
+    <STO.TradeCategory.Other>Otros</STO.TradeCategory.Other>
+
+    <STO.TradeList.Column.Item>Objeto</STO.TradeList.Column.Item>
+    <STO.TradeList.Column.Details>Detalles</STO.TradeList.Column.Details>
+    <STO.TradeList.Column.DetailsTooltip>Ordena por los detalles mostrados aquí, incluidos los planes coincidentes de Xenogerm Planner y la información comercial de los personajes.</STO.TradeList.Column.DetailsTooltip>
+    <STO.TradeList.Column.Count>Cantidad</STO.TradeList.Column.Count>
+    <STO.TradeList.Column.Settlement>Asentamiento</STO.TradeList.Column.Settlement>
+    <STO.TradeList.Column.Price>Precio</STO.TradeList.Column.Price>
+    <STO.TradeList.Column.Distance>Distancia</STO.TradeList.Column.Distance>
+    <STO.TradeList.Column.Restock>Reabastecimiento</STO.TradeList.Column.Restock>
+
+    <STO.TradeList.Distance.Tiles>{0} casillas</STO.TradeList.Distance.Tiles>
+    <STO.TradeList.Restock.PendingGeneration>Pendiente</STO.TradeList.Restock.PendingGeneration>
+
+    <STO.TradeList.Relevance.Tooltip.Header>Coincide con planes de Xenogerm Planner:</STO.TradeList.Relevance.Tooltip.Header>
+    <STO.TradeList.Relevance.Tooltip.More>...y {0} más.</STO.TradeList.Relevance.Tooltip.More>
+
+    <STO.TradeList.Price.NegotiatedTooltip>Precio de compra estimado usando a {0} como negociador seleccionado.</STO.TradeList.Price.NegotiatedTooltip>
+    <STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>Precio de compra estimado. No se dispone de información sobre el negociador usado para esta estimación.</STO.TradeList.Price.NegotiatedTooltipWithoutNegotiator>
+    <STO.TradeList.Price.MarketValueFallbackTooltip>Valor de mercado aproximado. No se disponía de un precio comercial específico del negociador.</STO.TradeList.Price.MarketValueFallbackTooltip>
+    <STO.TradeList.Price.UnavailableTooltip>No hay una estimación de precio disponible para esta oferta.</STO.TradeList.Price.UnavailableTooltip>
+
+    <STO.TradeList.Distance.ReachableTooltip>Distancia desde la ubicación actual la última vez que se actualizó la lista.</STO.TradeList.Distance.ReachableTooltip>
+    <STO.TradeList.Distance.UnreachableTooltip>No se ha encontrado ninguna ruta terrestre transitable desde la ubicación actual la última vez que se actualizó la lista. Puede que aún existan otros medios de transporte, como el aéreo.</STO.TradeList.Distance.UnreachableTooltip>
+    <STO.TradeList.Distance.RouteUnavailableTooltip>Distancia desde la ubicación actual la última vez que se actualizó la lista. No se ha podido comprobar la disponibilidad de una ruta terrestre.</STO.TradeList.Distance.RouteUnavailableTooltip>
+    <STO.TradeList.Distance.UnavailableTooltip>No se ha podido calcular la distancia desde la ubicación actual la última vez que se actualizó la lista.</STO.TradeList.Distance.UnavailableTooltip>
+
+    <STO.TradeList.Restock.ScheduledTooltip>Tiempo restante para el reabastecimiento la última vez que se actualizó la lista: {0}. Este valor no se actualiza de forma continua.</STO.TradeList.Restock.ScheduledTooltip>
+    <STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>Fecha y hora previstas de reabastecimiento para la ubicación actual: {0}&#10;Tiempo restante la última vez que se actualizó la lista: {1}&#10;&#10;Este valor no se actualiza de forma continua.</STO.TradeList.Restock.ScheduledWithExpectedTimeTooltip>
+    <STO.TradeList.Restock.PendingGenerationTooltip>El asentamiento no ha proporcionado una hora de reabastecimiento programada. Puede que su inventario comercial aún no esté disponible.</STO.TradeList.Restock.PendingGenerationTooltip>
+    <STO.TradeList.Restock.UnavailableTooltip>No hay información de reabastecimiento disponible para este asentamiento.</STO.TradeList.Restock.UnavailableTooltip>
+
+    <STO.TradeList.Navigation.JumpToSettlement>Ir a {0}</STO.TradeList.Navigation.JumpToSettlement>
+    <STO.TradeList.Navigation.SettlementUnavailable>{0} ya no está disponible en el mapa del mundo.</STO.TradeList.Navigation.SettlementUnavailable>
+
+    <STO.GlobalOverview.Navigation.JumpToNegotiator>Ir a {0}</STO.GlobalOverview.Navigation.JumpToNegotiator>
+    <STO.GlobalOverview.Navigation.NegotiatorUnavailable>{0} ya no está disponible en ningún mapa de jugador.</STO.GlobalOverview.Navigation.NegotiatorUnavailable>
+
+    <STO.TradeList.Info.Open>Abrir información de {0}</STO.TradeList.Info.Open>
+    <STO.TradeList.Restock.Days>{0} días</STO.TradeList.Restock.Days>
+</LanguageData>

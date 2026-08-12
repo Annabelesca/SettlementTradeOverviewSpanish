@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <STO.SettlementStock.Loading>Cargando inventario comercial del asentamiento...</STO.SettlementStock.Loading>
+    <STO.SettlementStock.Header>Inventario comercial actual de {0}</STO.SettlementStock.Header>
+    <STO.SettlementStock.UnknownSettlement>Asentamiento</STO.SettlementStock.UnknownSettlement>
+    <STO.SettlementStock.RestockSummary>Reabastecimiento: {0}</STO.SettlementStock.RestockSummary>
+    <STO.SettlementStock.CurrencyUnavailable>La información sobre la moneda comercial no está disponible.</STO.SettlementStock.CurrencyUnavailable>
+    <STO.SettlementStock.Empty>Este asentamiento no tiene actualmente inventario comercial que se pueda mostrar.</STO.SettlementStock.Empty>
+    <STO.SettlementStock.NoTradeEntries>Este comerciante no tiene actualmente ofertas comerciales que se puedan mostrar.</STO.SettlementStock.NoTradeEntries>
+    <STO.SettlementStock.NoMatches>Ninguna oferta comercial coincide con la categoría y la búsqueda actuales.</STO.SettlementStock.NoMatches>
+    <STO.SettlementStock.Unavailable>Este asentamiento ya no está disponible o su inventario comercial no forma parte del resumen actual.</STO.SettlementStock.Unavailable>
+    <STO.SettlementStock.Partial>Algunas ofertas comerciales de este asentamiento no se han podido cargar. Se siguen mostrando el resto de ofertas.</STO.SettlementStock.Partial>
+    <STO.SettlementStock.Error>No se ha podido cargar el inventario comercial del asentamiento. Consulta el registro para más información.</STO.SettlementStock.Error>
+</LanguageData>
